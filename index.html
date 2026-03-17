@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Solarpunk - Il Futuro è Verde</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@300;400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#a2b568",
+              "background-light": "#f9faf8",
+              "background-dark": "#1a1c14",
+            },
+            fontFamily: {
+              "display": ["Arimo", "sans-serif"],
+              "sans": ["Arimo", "sans-serif"]
+            },
+            borderRadius: {
+              "DEFAULT": "0.5rem",
+              "lg": "1rem",
+              "xl": "1.25rem",
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+<style>
+      body {
+        font-family: 'Arimo', sans-serif;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 backdrop-blur-md dark:bg-background-dark/80">
+<div class="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-4 lg:px-10">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-2xl font-bold">wb_sunny</span>
+</div>
+<h2 class="text-xl font-extrabold tracking-tight text-slate-900 dark:text-white">Solarpunk</h2>
+</div>
+<nav class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-semibold transition-colors hover:text-primary" href="/">Home</a>
+<a class="text-sm font-semibold transition-colors hover:text-primary" href="/soluzioni.html">Soluzioni</a>
+<a class="text-sm font-semibold transition-colors hover:text-primary" href="/cultura.html">Cultura</a>
+<a class="text-sm font-semibold transition-colors hover:text-primary" href="/contatti.html">Contatti</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex items-center justify-center rounded-lg bg-primary px-6 py-2 text-sm font-bold text-white transition-transform hover:scale-105 active:scale-95">
+                    Unisciti
+                </button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<!-- Hero Section -->
+<div class="px-6 py-6 lg:px-10">
+<div class="mx-auto max-w-[1200px]">
+<div class="relative flex min-h-[560px] flex-col items-center justify-center overflow-hidden rounded-xl bg-slate-900 p-8 text-center" data-alt="Futuristic green city with abundant vertical gardens and solar panels" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuBG3fsWDx_MHqtWDZLL522VpcdeXryDS2d_e19VQ_OrzD7HKMvMLNGKh3iHbOhGKsDey62qyE5aoTQkxCOS2IuU9djTHZiw8igF8NDCxE0AbIpamciF-D4mTAS-D_1b90BmrTWVguFTvd_znhi8UWywL6DP-jibcYpjfsa4NgXCTnYfgosNMPZBd6-2GKLZhglCxmhUB0CXpZ52Rvp5lx5pX4b8cgDIUXwFaNCN7O5mA2rmf_hxcUUhvocZkH9Y1eXHtJ57Mc7Ngw'); background-size: cover; background-position: center;">
+<div class="relative z-10 max-w-3xl">
+<h1 class="mb-4 text-4xl font-black leading-tight text-white md:text-6xl lg:leading-none">
+                            Il Futuro è <span class="text-primary">Verde</span> e Luminoso
+                        </h1>
+<p class="mb-8 text-lg font-medium text-slate-200 md:text-xl">
+                            Immagina una città dove la tecnologia e la natura coesistono in perfetta armonia. 
+                            Benvenuti nell'era dell'abbondanza sostenibile.
+                        </p>
+<div class="flex flex-col gap-4 sm:flex-row sm:justify-center">
+<button class="rounded-lg bg-primary px-8 py-4 text-base font-bold text-white transition-all hover:bg-primary/90">
+                                Scopri la Visione
+                            </button>
+<button class="rounded-lg border-2 border-white/30 bg-white/10 px-8 py-4 text-base font-bold text-white backdrop-blur-sm transition-all hover:bg-white/20">
+                                Esplora Progetti
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Vision Section -->
+<section class="mx-auto max-w-[1200px] px-6 py-16 lg:px-10">
+<div class="mb-16 grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center">
+<div>
+<h2 class="mb-6 text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white md:text-4xl">
+                        Che cos'è il Solarpunk?
+                    </h2>
+<p class="mb-6 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                        Il Solarpunk è un movimento culturale, estetico e politico che immagina e lavora per realizzare un futuro in cui l'umanità ha risolto le grandi sfide ambientali. 
+                    </p>
+<p class="text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                        A differenza del cyberpunk distopico, noi scegliamo l'ottimismo radicale. Utilizziamo l'innovazione sostenibile, l'energia solare e una profonda riconnessione con l'ecosistema terrestre per costruire un mondo post-scarsità.
+                    </p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="aspect-square overflow-hidden rounded-xl bg-primary/10" data-alt="Solar panels integrated into organic building shapes">
+<img alt="Solar" class="h-full w-full object-cover opacity-80 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoS2z5OLDS9jEZ5SLTberakiSHpse5O5XTkJJ9JnC0Tf-o5la_14Ooxe8JofXzr5H0bwRUry3aK_UQ2qChd0HbhaPxAaPfYZLAnlUPx8CA_JIFcKa_rBHsNeRPValSV1QO49P0PaVB6mWuJNolSiWlg3i7KMJr49mKkzd_pN5Id416Li8yulsm7VQiUZ3TlFdNH9epOf3vjuUjQL4jcun5WnsABu_JNv56yjaxlyrLrUxhlUHSGGOnWWxU4P9wDPRoBirxUbo5pQ"/>
+</div>
+<div class="mt-8 aspect-square overflow-hidden rounded-xl bg-primary/10" data-alt="Vertical garden wall on a modern eco-building">
+<img alt="Plants" class="h-full w-full object-cover opacity-80 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRCo_FFF0Dsd6SEZNT47tOfaZBItR75Iebblrc9arsbiu-Dw1BfxXcPZl_1eNI4YVrrinctaCHZ80EjrwOVzaMRO2-9Q5rlhTHIeyrKzxMRJPbN0_qxHbVGq_pgMF21BBjg0rPWEV67WwJxyeWfzHlAMtyoqP9lQBcs8MBDLv6HOQu78Pj6o6iybCWf-ItWIdfSKOZZmdt2ooHBQGfy1dqB5p7JT30jRFJ65gwVnZx6YrZ-naG58P46xcLWGYSpvbvPW2OY2K1YQ"/>
+</div>
+</div>
+</div>
+<!-- Pillars Grid -->
+<div class="flex flex-col gap-10">
+<div class="flex flex-col gap-4 text-center lg:items-center">
+<h2 class="text-3xl font-black text-slate-900 dark:text-white md:text-4xl">I Nostri Pilastri</h2>
+<p class="max-w-2xl text-lg text-slate-600 dark:text-slate-400">Costruiamo oggi il domani che vogliamo abitare, basandoci su fondamenta solide e rigenerative.</p>
+</div>
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+<div class="flex flex-col gap-4 rounded-xl border border-primary/20 bg-white p-8 transition-all hover:border-primary/50 dark:bg-background-dark/50">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-3xl">light_mode</span>
+</div>
+<div>
+<h3 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Energia Rinnovabile</h3>
+<p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+                                Sfruttiamo la potenza del sole, del vento e dell'acqua per alimentare ogni aspetto della vita urbana in modo pulito e decentralizzato.
+                            </p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-primary/20 bg-white p-8 transition-all hover:border-primary/50 dark:bg-background-dark/50">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-3xl">potted_plant</span>
+</div>
+<div>
+<h3 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Bio-Architettura</h3>
+<p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+                                Integrazione simbiotica di flora nativa e giardini verticali nelle strutture abitative per purificare l'aria e regolare la temperatura.
+                            </p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-primary/20 bg-white p-8 transition-all hover:border-primary/50 dark:bg-background-dark/50">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/20 text-primary">
+<span class="material-symbols-outlined text-3xl">groups</span>
+</div>
+<div>
+<h3 class="mb-2 text-xl font-bold text-slate-900 dark:text-white">Comunità Resilienti</h3>
+<p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+                                Modelli sociali basati sulla collaborazione, l'economia circolare e l'equità, per una società che prospera insieme alla biosfera.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action Section -->
+<section class="bg-primary/5 px-6 py-20 lg:px-10">
+<div class="mx-auto max-w-[800px] text-center">
+<h2 class="mb-6 text-3xl font-black text-slate-900 dark:text-white md:text-4xl">Sii il Cambiamento</h2>
+<p class="mb-10 text-lg text-slate-600 dark:text-slate-400">
+                    Non stiamo solo aspettando il futuro; lo stiamo piantando. Unisciti alla nostra rete globale di sognatori, ingegneri e artisti.
+                </p>
+<div class="flex flex-wrap justify-center gap-4">
+<input class="w-full max-w-sm rounded-lg border-primary/20 bg-white px-6 py-3 focus:border-primary focus:ring-primary dark:bg-background-dark sm:w-auto" placeholder="La tua email" type="email"/>
+<button class="w-full rounded-lg bg-primary px-8 py-3 font-bold text-white transition-all hover:bg-primary/90 sm:w-auto">
+                        Inizia Ora
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Simple Footer -->
+<footer class="border-t border-primary/10 bg-white py-12 dark:bg-background-dark">
+<div class="mx-auto max-w-[1200px] px-6 lg:px-10">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded bg-primary text-white">
+<span class="material-symbols-outlined text-xl font-bold">wb_sunny</span>
+</div>
+<span class="text-lg font-bold tracking-tight text-slate-900 dark:text-white">Solarpunk</span>
+</div>
+<div class="flex gap-8">
+<a class="text-sm font-medium text-slate-500 hover:text-primary dark:text-slate-400" href="#">Privacy</a>
+<a class="text-sm font-medium text-slate-500 hover:text-primary dark:text-slate-400" href="#">Termini</a>
+<a class="text-sm font-medium text-slate-500 hover:text-primary dark:text-slate-400" href="#">FAQ</a>
+</div>
+<div class="flex gap-4">
+<a class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors hover:bg-primary hover:text-white" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors hover:bg-primary hover:text-white" href="#">
+<span class="material-symbols-outlined text-lg">eco</span>
+</a>
+</div>
+</div>
+<div class="mt-8 border-t border-primary/5 pt-8 text-center text-sm text-slate-500 dark:text-slate-400">
+<p>© 2024 Movimento Solarpunk. Seminiamo il domani insieme.</p>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
